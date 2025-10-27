@@ -1,4 +1,4 @@
-# 🏦 Home Mortgage Lending – Risk & Strategy Insights (2019–2023)
+# 🏦 Home Mortgage Lending – Risk & Strategy Insights (2019–2024)
 
 **Why this project:** I’ve always been fascinated by how financial data shapes a bank’s pricing, risk appetite, and growth decisions. To explore this in a practical way, I analyzed public mortgage application data from the **Home Mortgage Disclosure Act (HMDA)**, focusing on **Fifth Third Bank** to keep the insights directly relevant to a Risk & Strategy role.
 
@@ -8,7 +8,7 @@
 
 **Fifth Third Bank** is a large U.S. financial institution with a broad retail footprint across multiple states. Like all regulated lenders, Fifth Third reports mortgage application data to the FFIEC under HMDA. This provides a transparent view of application volumes, approvals/denials, borrower and property characteristics, and several credit risk indicators.
 
-Using HMDA filings for **2019–2023**, I built an end-to-end analysis to surface the kinds of signals a Risk & Strategy team monitors: approval trends, denial drivers, risk levers (DTI/CLTV), pricing dispersion, product/channel mix, and geographic concentrations.
+Using HMDA filings for **2019–2024**, I built an end-to-end analysis to surface the kinds of signals a Risk & Strategy team monitors: approval trends, denial drivers, risk levers (DTI/CLTV), pricing dispersion, product/channel mix, and geographic concentrations.
 
 > **Note:** This analysis uses public data for learning and demonstration only; it is not affiliated with Fifth Third Bank.
 
@@ -25,7 +25,7 @@ Using HMDA filings for **2019–2023**, I built an end-to-end analysis to surfac
 
 ---
 
-## Executive Summary (2019–2023)
+## Executive Summary (2019–2024)
 
 **Portfolio & Trend**
 - Applications and approval rates show clear **year-over-year variation**, with noticeable normalization post-pandemic highs.
@@ -51,7 +51,7 @@ Using HMDA filings for **2019–2023**, I built an end-to-end analysis to surfac
 ## Dataset Structure & Data Model (ERD)
 
 **Source:** HMDA Public LAR (Loan/Application Register), FFIEC/CFPB  
-**Years Covered:** 2019–2023  
+**Years Covered:** 2019–2024  
 **Grain:** one application/loan record (annual reporting)
 
 **Star Schema (Power BI)**
@@ -116,7 +116,7 @@ Using HMDA filings for **2019–2023**, I built an end-to-end analysis to surfac
 ## How to Reproduce
 
 1. **Data**  
-   - Download HMDA LAR (2019–2023) from the FFIEC/CFPB site.  
+   - Download HMDA LAR (2019–2024) from the FFIEC/CFPB site.  
    - Filter rows to Fifth Third Bank (by **LEI**).  
 
 2. **Processing**  
