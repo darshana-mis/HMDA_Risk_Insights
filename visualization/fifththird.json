@@ -1,0 +1,76 @@
+{
+  "name": "Fifth Third Bank",
+  "dataColors": [
+    "#592C82",
+    "#8B5FA8",
+    "#FF6B35",
+    "#00A651",
+    "#E31837",
+    "#FDB813",
+    "#2D2926",
+    "#5D5D5D"
+  ],
+  "background": "#F5F5F5",
+  "foreground": "#2D2926",
+  "tableAccent": "#592C82",
+  "good": "#00A651",
+  "neutral": "#FDB813",
+  "bad": "#E31837",
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI",
+      "color": "#592C82"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2D2926"
+    },
+    "header": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#5D5D5D"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#5D5D5D"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [{
+          "fontFamily": "Segoe UI"
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        "border": [{
+          "show": false
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#8B5FA8" } },
+          "radius": 8
+        }],
+        "dropShadow": [{
+          "show": true,
+          "color": { "solid": { "color": "#000000" } },
+          "transparency": 92,
+          "position": "Outer",
+          "preset": "BottomRight"
+        }]
+      }
+    }
+  }
+}
